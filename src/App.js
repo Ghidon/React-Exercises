@@ -16,7 +16,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+<<<<<<< HEAD
           Click Me
+=======
+          Click Me Twice
+>>>>>>> f8cf7fa9bed4f502f825a3dbbef1fcbb4f7f8e5d
         </a>
       </header>
     </div>
