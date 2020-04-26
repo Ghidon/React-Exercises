@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
 import Locations from "./components/Locations";
+import Box1 from "./components/MyBoxes";
 
 function App() {
   return (
     <div>
-      <Locations
+      <Box1></Box1>
+      {/* <Locations
         imageUrl={
           "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlMZIzLTyI4TQNInjWOVAT-GIXTi8FlXFNPYrvexa88GN1Bsie&usqp=CAU"
         }
@@ -40,7 +42,7 @@ function App() {
         maps={
           "https://www.google.com/maps/place/Berlin,+Germany/@52.5067614,13.2846506,11z/data=!3m1!4b1!4m5!3m4!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954"
         }
-      ></Locations>
+      ></Locations> */}
     </div>
   );
 }
