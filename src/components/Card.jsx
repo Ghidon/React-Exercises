@@ -1,6 +1,5 @@
 import React from "react";
 import "./cards.css";
-import { GiBrutalHelm, GiPoliceBadge, GiFlame } from "react-icons/gi";
 
 function CardHolder() {
   return (
@@ -26,7 +25,7 @@ function CardHolder() {
       <Card
         title={"DESIGN AND BRANDING"}
         imageUrl={
-          <img src="https://img.icons8.com/officel/335/000000/cheap-2.png" />
+          <img src="https://img.icons8.com/officel/340/000000/cheap-2.png" />
         }
         bullet1={"Interaction Design"}
         bullet2={"Graphic Design"}

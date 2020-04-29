@@ -4,12 +4,18 @@ import Locations from "./components/Locations";
 import Box1 from "./components/MyBoxes";
 import NavBar from "./components/NavBar";
 import Body from "./components/Body";
+import Day from "./components/weatherApp";
+import DaysHolder from "./components/days";
 
 function App(props) {
   return (
     <div>
+      <Day></Day>
+      <DaysHolder></DaysHolder>
+      {/* ***Exercise 4***
       <NavBar></NavBar>
-      <Body></Body>
+      <Body></Body> */}
+      {/* **** */}
       {/* <Box1></Box1> */}
       {/* <Locations
         imageUrl={
