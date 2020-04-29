@@ -2,11 +2,15 @@ import React from "react";
 import "./App.css";
 import Locations from "./components/Locations";
 import Box1 from "./components/MyBoxes";
+import NavBar from "./components/NavBar";
+import Body from "./components/Body";
 
-function App() {
+function App(props) {
   return (
     <div>
-      <Box1></Box1>
+      <NavBar></NavBar>
+      <Body></Body>
+      {/* <Box1></Box1> */}
       {/* <Locations
         imageUrl={
           "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlMZIzLTyI4TQNInjWOVAT-GIXTi8FlXFNPYrvexa88GN1Bsie&usqp=CAU"
